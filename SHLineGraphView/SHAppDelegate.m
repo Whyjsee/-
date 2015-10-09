@@ -19,8 +19,8 @@
     [self.window makeKeyAndVisible];
   
   
-  self.window.rootViewController = [[SHRootController alloc] init];
-  
+   self.window.rootViewController = [[SHRootController alloc] init];
+    NSLog(@"----------------------");
     return YES;
 }
 
